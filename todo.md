@@ -10,9 +10,12 @@
 ## Back end 프로젝트 개발
 
 - [ ] spring api 서버 개발
+  - [ ] mas
 - [ ] go api 서버 개발
+  - [ ]
 - [ ] redis 서버 개발
 - [ ] mq 서버 개발
+- [ ] ml basic
 
 ## Front end 프로젝트 개발
 
