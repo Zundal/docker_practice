@@ -6,3 +6,7 @@ COPY . .
 RUN yarn install --production
 CMD ["node", "src/index.js"]
 EXPOSE 3000
+
+# 참고자료
+# https://docs.docker.com/get-started/02_our_app/
+# https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
