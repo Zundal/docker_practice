@@ -1,4 +1,4 @@
-#TODO: 개발계획
+#TODO: 인프라 개발계획
 
 ## 디비서버 개발
 
@@ -11,9 +11,18 @@
 
 - [ ] spring api 서버 개발
 - [ ] go api 서버 개발
+- [ ] redis 서버 개발
+- [ ] mq 서버 개발
 
 ## Front end 프로젝트 개발
 
 - [ ] client 서버 개발
   - [ ] react 서버 개발
   - [ ] vue 서버 개발
+  - [ ] 페이지 분석 api 연동 google analytics api
+
+## 추가 조사해야할 자료
+
+- [ ] apache kafka
+- [ ] elasticsearch
+- [ ] hadoop
