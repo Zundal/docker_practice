@@ -7,11 +7,11 @@ docker push [image name]:[tag name] // 도커 hub에 push
 docker pull [image name]:[tag name] // 도커 hub에서 pull
 
 ## centos 8 java project
-
+sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-Linux-\*  
 centos 8 리포지토리 못찾을때
 
-sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-Linux-\*
-sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-Linux-\*
+sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-Linux-\*  
+sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-Linux-\*  
 
 > yum update
 > yum upgrade
